@@ -1,8 +1,14 @@
-//import security packages
+#import security packages
+```
 const Security = require('@nagyaly/security');
+```
 
-//configure your express app
+#configure your express app
+```
 Security.secure(app, { proxy: process.env.proxy });
+```
 
-//set global rate limit 100 requests per 60 seconds
+#set global rate limit 100 requests per 60 seconds
+```
 app.use(Security.rateLimiter(100));
+```
