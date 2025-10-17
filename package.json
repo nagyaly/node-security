@@ -1,0 +1,13 @@
+{
+  "name": "@nagyaly/node-security",
+  "version": "1.0.0",
+  "description": "Security add-on and rate limiter for nodejs",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagyaly/node-security.git"
+  },
+  "keywords": [],
+  "author": "Nagy K. Aly",
+  "license": "ISC"
+}
